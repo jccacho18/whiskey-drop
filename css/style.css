@@ -1,19 +1,36 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.alert-container {}
+.alert-container {
+}
 
 .callout-container {
-    height: 100vh;
+  height: 100vh;
 
-    background: url("../whiskey-background.jpg") no-repeat bottom right fixed; 
+  background: url("../whiskey-background.jpg") no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
 }
 
-.quotes-container {}
+.quotes-container {
+}
 
-.features-container {}
+.features-container {
+}
+
+/*Jumbotron*/
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
