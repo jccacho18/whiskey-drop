@@ -23,7 +23,8 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <div class="container-fluid navalert-container">
+    <nav class="navbar navbar-dark navbar-expand-sm">
       <a href="/" class="navbar-brand">Whiskey Drop</a>
 
       <button
@@ -76,10 +77,10 @@
         <p class="navbar-text my-auto mr-2">
           <i>Great whiskey delivered to your door!</i>
         </p>
-        <a href="/login">Sign In / Sign Up</a>
+        <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
       </div>
     </nav>
-
+    </div>
 <!--<div class="container alert-container">
       <div class="row d-none d-sm-block">
         <div class="col-12">
@@ -107,7 +108,7 @@
               <strong><mark>First one is free!</mark></strong>
             </p>
             <button
-              class="btn btn-lg btn--cta btm--red"
+              class="btn btn-lg btn--cta btn--red"
               data-toggle="modal"
               data-target="#signUpModal"
             >
